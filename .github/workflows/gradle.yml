@@ -16,7 +16,7 @@ jobs:
       - name: Set up Java 17
         uses: actions/setup-java@v2
         with:
-          java-version: '17'
+          java-version: '17.0.1'
 
       - name: Build with Gradle
         run: ./gradlew build
